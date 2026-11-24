@@ -54,7 +54,4 @@ public class PostController {
 		postService.delete(id);
 		return ResponseEntity.noContent().build();
 	}
-	
-	String broken = "CI 테스트"
-	
 }
